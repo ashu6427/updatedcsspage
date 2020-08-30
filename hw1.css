@@ -1,0 +1,134 @@
+body{
+    margin: 10px;
+    padding: 10px;
+}
+
+header{
+    text-align: center;
+    background-image: url("../images/flywheel.jpg");
+    background-repeat: repeat;
+
+    padding: 10px;
+   
+}
+
+header h1{
+    color: #ffffff;
+    font-variant-caps: all-petite-caps;
+}
+
+nav{
+    text-align: center;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: lightgrey;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    border-width: 50%;
+    height: 25px;
+    width: 100px;
+    color: #000000;
+}
+
+.active{
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.left{
+    float: left;
+    width: 13%;
+    padding: 5px;
+    background-color: #556b2f;
+    
+}
+
+img{
+    
+    width:100px;
+    height: 120px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5% ;
+    border: 5px solid #000000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.right{
+    display: inline-block;
+    width: 700px;
+    padding-left: 35px;
+    
+}
+
+table{
+    font-size: x-large;
+    margin-left: 20px; 
+    border-radius: 20px;
+    line-height: 50px;
+    font-weight: 500;
+    width: 1000px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+table td{
+    background-color: #f0f8ff;
+    text-align: center;
+    padding-right: 20px;
+    border-radius: 2px;
+    width: 300px;
+    
+}
+
+table td:hover{
+    background-color: #b0e0e6;
+}
+
+table td:first-child{
+    text-align: left;
+    width: 1000px;
+    padding-left: 3px;
+    
+}
+
+table th{
+    text-align: center;
+    color: #ffffff;
+    background-color: #7fff00;
+    transition-property: background-color, opacity;
+    transition-timing-function: linear;
+    transition-duration: 0.5s;
+    transition-delay: 0.5ms;
+    opacity: 0.8;
+    border: 1px solid #000000;
+    border-bottom-width: 1px;
+    border-radius: 5px;
+    margin-right: 50px;
+    background:-webkit-linear-gradient(#7fff00 0%, rgb(163, 243, 163) 50%)
+    background:-moz-linear-gradient(top,#7fff00 0%, rgb(163, 243, 163) 50%)
+    background:-0-linear-gradient(#7fff00 0%, rgb(163, 243, 163) 50%)
+    padding:3px 5px 10px 3px;
+}
+
+table th:first-child{
+    text-align: left;
+}
+
+table th:hover{
+    background-color: #556b2f;
+    opacity: 1;
+}
+
+
+
+
+
